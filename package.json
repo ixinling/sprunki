@@ -1,12 +1,13 @@
 {
-  "name": "sprunki-game",
-  "version": "1.0.0",
-  "description": "Sprunki music game website",
-  "scripts": {
-    "start": "serve .",
-    "dev": "serve ."
-  },
-  "devDependencies": {
-    "serve": "^14.0.0"
+    "name": "sprunki-game",
+    "version": "1.0.0",
+    "description": "Sprunki music game website",
+    "scripts": {
+      "start": "serve .",
+      "dev": "serve .",
+      "build": "mkdir -p dist && cp -r index.html styles sitemap.xml dist/"
+    },
+    "devDependencies": {
+      "serve": "^14.0.0"
+    }
   }
-}
