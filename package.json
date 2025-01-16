@@ -1,0 +1,12 @@
+{
+  "name": "sprunki-game",
+  "version": "1.0.0",
+  "description": "Sprunki music game website",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}
