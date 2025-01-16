@@ -1,0 +1,55 @@
+:root {
+    --primary-color: #6B7FD7;         /* 柔和的蓝紫色 */
+    --background-color: #F5F7FF;      /* 淡淡的背景色 */
+    --text-color: #2C3E50;           /* 深色文字 */
+    --shadow-color: rgba(107, 127, 215, 0.1); /* 柔和的阴影 */
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: var(--primary-color);
+    margin-top: 25px;
+}
+
+#game-iframe {
+    border: 0;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px var(--shadow-color);
+}
+
+section {
+    margin-bottom: 25px;
+    padding: 0 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
